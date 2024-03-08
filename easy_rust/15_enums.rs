@@ -103,14 +103,16 @@ enum Season {
 fn main(){
     use Season::*;
     let four_seasons = vec![Spring, Summer, Autumm, Winter]; // vec<season>
+    for season in four_seasons {
     println!("The number is : {}", season as u32);
+    }
 }
 
 /*
-The number is : Spring
-The number is : Summer
-The number is : Autumm
-The number is : Winter
+The number is : 0
+The number is : 1
+The number is : 2
+The number is : 3
  */
 
 
