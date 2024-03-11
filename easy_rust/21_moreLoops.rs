@@ -20,8 +20,6 @@ fn main() {
 }
 
 
-
-
 fn main() {
     for _ in 0..3 {  //exclusive range 0..3(0,1,2), inclusive range 0..=3(0,1,2,3)
         println!("I don't care");
