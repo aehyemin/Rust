@@ -1,6 +1,6 @@
 // control flow 
 //if else 나 loop 같은 거
-
+/* 
 fn main(){
     let my_number = 5;
     let my_second_number = 10;
@@ -36,7 +36,7 @@ fn main(){
         _ => println!("It's a different number") // _ "I don't care" "anything else"
     }
 }
-
+*/
 
 fn main(){ // expression based language이기 때문에 let 을 이용할 수 있다
     // match
@@ -45,7 +45,7 @@ fn main(){ // expression based language이기 때문에 let 을 이용할 수 �
     let second_number = match my_number { 
         0 => 23,
         1 => 65,
-        _ => 0 ("It's a different number") // _ "I don't care" "anything else"
+        _ => 0 //"It's a different number" ,  _ "I don't care" "anything else"
     };
     println!("The second number is {}", second_number);
 

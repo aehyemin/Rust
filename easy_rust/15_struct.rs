@@ -2,6 +2,8 @@
 // unit struct ( 거의 안 씀), tuple struct, named struct ( 가장 많이 씀, struct 다운 struct)
 
 // unit struct
+
+/* 
 struct FileDirectory;
 
 fn takes_file_directory(input: FileDirectory) {
@@ -74,6 +76,8 @@ The population is : 35000000
 The capital is Ottawa
 */
 
+*/
+
 
 // named struct
 #[derive(Debug)]
@@ -89,9 +93,11 @@ fn main() {
         capital : "Ottawa".to_string(),
         leader_name : "Justin".to_string()
     };
-    println!("The country is : {:?}", cananda);
+    println!("The country is : {:?}", canada);
 }
-The country is : Country { population: 35000000, capital: "Ottawa", leader_name: "Justin" };
+
+//prints:
+//The country is : Country { population: 35000000, capital: "Ottawa", leader_name: "Justin" };
 
 
 /* 

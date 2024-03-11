@@ -1,3 +1,4 @@
+/* 
 // () - empty type, unit type(void)
 
 fn number() -> i32 {
@@ -18,6 +19,7 @@ fn main() {
     let my_number = number();
 }
 // error : mismatched types occur
+*/
 
 
 
@@ -28,7 +30,7 @@ fn empty_tuple() -> () {
 
 fn main() {
     let tuple = empty_tuple();
-    println!("{}", tuple);
+    println!("{:?}", tuple);
 }
 
 /* 

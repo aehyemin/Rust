@@ -1,5 +1,5 @@
+/* 
 #[derive(Debug)]
-
 struct Country {
     population : u32,
     capital : String,
@@ -118,7 +118,7 @@ prints :
 Country is 56 bytes in size
 Size is : 8
 */
-
+*/
 
 use std::mem::size_of_val;
 

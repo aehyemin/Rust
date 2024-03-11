@@ -1,3 +1,4 @@
+/* 
 fn main () {
     let sky = "cloudy";
     let temperature = "warm"
@@ -10,13 +11,16 @@ fn main () {
     }
 }
 
-/* 
 _ => println!("Not sure what the weather is." 을 맨 윗줄에 쓰면
 warning : unreachable patterns 이 발생한다. 
 _ 를 맨 앞에 쓰면 뒷줄을 읽지 않기 때문.
 */
 
 
+/////////////////more_match_statements////////////////
+
+
+/* 
 fn main() {
     let children = 5;
     let married = true:
@@ -69,7 +73,7 @@ fn main(){
 
 //타입을 일치시켜 주어야 한다. 윗줄이 integer 이면 아랫줄도 integer
 
-
+*/
 
 fn match_number(input:i32) {
      match input {
@@ -77,14 +81,14 @@ fn match_number(input:i32) {
         number @ 0..=10 => println!("It's between 0 and 10. It's the number {}", number),
 
         _ => println!("It's greater than ten"),
-     }
-
+    }
+}
 
     fn main(){
         match_number(10);
         match_number(100);
     }
-        }
+
 
 
 // prints:
