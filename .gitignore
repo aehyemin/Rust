@@ -1,1 +1,7 @@
-/target
+
+
+# exe.file
+target/
+
+# apple mac os finder system
+.DS_Store
