@@ -1,7 +1,6 @@
 use anyhow::{Context, Result};
 use clap::Parser;
 
-
 // 파일에서 찾을 문자열 탐색과 포함하는 라인 표시
 #[derive(Parser)]
 struct Cli {
